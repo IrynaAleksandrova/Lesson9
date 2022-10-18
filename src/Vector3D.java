@@ -1,6 +1,6 @@
 public class Vector3D extends Vector {
 
-    private static final String TEXT_Vector3D = "This is Vector is 3D system";
+    private static final String TEXT_VECTOR3D = "This is Vector is 3D system";
 
     public Vector3D(double x, double y, double z) {
         super(x, y, z);
@@ -41,6 +41,6 @@ public class Vector3D extends Vector {
     }
 
     public void info() {
-        System.out.println(TEXT_Vector3D);
+        System.out.println(TEXT_VECTOR3D);
     }
 }

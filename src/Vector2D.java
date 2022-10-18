@@ -1,6 +1,6 @@
 public class Vector2D extends Vector {
 
-    private static final String TEXT_Vector2D = "This is Vector is 2D system";
+    private static final String TEXT_VECTOR2D = "This is Vector is 2D system";
 
     public Vector2D(double x, double y) {
         super(x, y);
@@ -38,7 +38,7 @@ public class Vector2D extends Vector {
     }
 
     public void info() {
-        System.out.println(TEXT_Vector2D);
+        System.out.println(TEXT_VECTOR2D);
     }
 
 }
