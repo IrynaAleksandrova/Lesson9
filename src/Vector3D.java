@@ -9,23 +9,23 @@ public class Vector3D extends Vector {
     public Vector3D() {
     }
 
-    public double vectorLength(Vector3D vector) {
+    public double getVectorLength() {
         System.out.print("Vector length: ");
-        return Math.sqrt(vector.getX() * vector.getX() + vector.getY() * vector.getY() + vector.getZ() * vector.getZ());
+        return Math.sqrt(this.getX() * this.getX() + this.getY() * this.getY() + this.getZ() * this.getZ());
     }
 
-    public double vectorScalarMultiplication(Vector3D vector1, Vector3D vector2) {
+    public double calculateScalarMultiplication(Vector3D vector1, Vector3D vector2) {
         System.out.print("Scalar multiplication of vectors: ");
         return vector1.getX() * vector2.getX() + vector1.getY() * vector2.getY() + vector1.getZ() * vector2.getZ();
     }
 
-    public Vector3D vectorSum(Vector3D vector1, Vector3D vector2) {
+    public Vector3D calculateSum(Vector3D vector1, Vector3D vector2) {
         System.out.print("Sum of vectors: ");
         return new Vector3D(vector1.getX() + vector2.getX(), vector1.getY() + vector2.getY(),
                 vector1.getZ() * vector2.getZ());
     }
 
-    public Vector3D vectorDiff(Vector3D vector1, Vector3D vector2) {
+    public Vector3D calculateDiff(Vector3D vector1, Vector3D vector2) {
         System.out.print("Difference of vectors: ");
         return new Vector3D(vector1.getX() - vector2.getX(), vector1.getY() - vector2.getY(),
                 vector1.getZ() * vector2.getZ());
@@ -40,7 +40,7 @@ public class Vector3D extends Vector {
         return arrayOfRandomVectors3;
     }
 
-    public void info() {
+    public void getInfo() {
         System.out.println(TEXT_VECTOR3D);
     }
 }
