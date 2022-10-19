@@ -1,3 +1,5 @@
+package withThreeClasses;
+
 public class Vector3D extends Vector {
 
     private static final String TEXT_VECTOR3D = "This is Vector is 3D system";

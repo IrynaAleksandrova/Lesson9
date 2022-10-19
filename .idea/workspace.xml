@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9c7eba3-8205-4463-87db-52872552908b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/withTwoClasses/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/withTwoClasses/Vector2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/withTwoClasses/Vector3D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson9/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson9/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson9/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson9/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson9/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson9/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson9/src/Vector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson9/src/Vector2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vector2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vector3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vector3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson9/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson9/src/Vector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson9/src/Vector2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson9/src/Vector3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/withThreeClasses/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/withThreeClasses/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/withThreeClasses/Vector2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vector3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/withThreeClasses/Vector3D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +40,38 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/lytkina/IdeaProjects/Lesson9",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lytkina\IdeaProjects\Lesson9\src\withThreeClasses" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="withTwoClasses.Main" />
       <module name="Lesson9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="withThreeClasses.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="withThreeClasses.Main" />
+      <module name="Lesson9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="withThreeClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -57,6 +79,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.withThreeClasses.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -74,7 +97,8 @@
       <workItem from="1666158755156" duration="790000" />
       <workItem from="1666161974964" duration="604000" />
       <workItem from="1666163748520" duration="273000" />
-      <workItem from="1666164057948" duration="906000" />
+      <workItem from="1666164057948" duration="1843000" />
+      <workItem from="1666180958417" duration="1786000" />
     </task>
     <task id="LOCAL-00001" summary="capital letters">
       <created>1666098517560</created>
@@ -90,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666158926990</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix methods">
+      <created>1666165155104</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666165155104</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="capital letters" />
     <MESSAGE value="name renaming" />
-    <option name="LAST_COMMIT_MESSAGE" value="name renaming" />
+    <MESSAGE value="fix methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix methods" />
   </component>
 </project>

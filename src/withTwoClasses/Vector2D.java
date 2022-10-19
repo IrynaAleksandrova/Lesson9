@@ -1,12 +1,21 @@
-public class Vector2D extends Vector {
+package withTwoClasses;
 
+public class Vector2D {
+    private double x;
+    private double y;
     private static final String TEXT_VECTOR2D = "This is Vector is 2D system";
 
-    public Vector2D(double x, double y) {
-        super(x, y);
+    public double getX() {
+        return x;
     }
 
-    public Vector2D() {
+    public double getY() {
+        return y;
+    }
+
+    public Vector2D(double x, double y) {
+        this.x = x;
+        this.y = y;
     }
 
     public double getVectorLength() {
@@ -14,19 +23,19 @@ public class Vector2D extends Vector {
         return Math.sqrt(this.getX() * this.getX() + this.getY() * this.getY());
     }
 
-    public double calculateScalarMultiplication(Vector2D vector1, Vector2D vector2) {
+    public double calculateScalarMultiplication(Vector2D vector) {
         System.out.print("Scalar multiplication of vectors: ");
-        return vector1.getX() * vector2.getX() + vector1.getY() * vector2.getY();
+        return this.getX() * vector.getX() + this.getY() * vector.getY();
     }
 
-    public Vector2D calculateSum(Vector2D vector1, Vector2D vector2) {
+    public Vector2D calculateSum(Vector2D vector) {
         System.out.print("Sum of vectors: ");
-        return new Vector2D(vector1.getX() + vector2.getX(), vector1.getY() + vector2.getY());
+        return new Vector2D(this.getX() + vector.getX(), this.getY() + vector.getY());
     }
 
-    public Vector2D calculateDiff(Vector2D vector1, Vector2D vector2) {
+    public Vector2D calculateDiff(Vector2D vector) {
         System.out.print("Difference of vectors: ");
-        return new Vector2D(vector1.getX() - vector2.getX(), vector1.getY() - vector2.getY());
+        return new Vector2D(this.getX() - vector.getX(), this.getY() - vector.getY());
     }
 
     public static Vector2D[] randomVectors(int n) {

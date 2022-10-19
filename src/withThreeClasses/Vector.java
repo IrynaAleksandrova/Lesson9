@@ -1,3 +1,5 @@
+package withThreeClasses;
+
 public class Vector {
     private double x;
     private double y;
